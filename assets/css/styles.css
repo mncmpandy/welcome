@@ -369,6 +369,7 @@ img {
   display: inline-block;
   background-color: var(--first-color);
   color: #FFF;
+  border: none;
   padding: 1rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
@@ -648,8 +649,9 @@ img {
   font-size: var(--normal-font-size);
   border: none;
   outline: none;
-  padding: 0.25rem 0.5rem 0.5rem 0;
-}
+  padding: 0.25rem 0.5rem 0.5rem 0;}
+
+
 
 
 /*==================== FOOTER ====================*/
