@@ -496,19 +496,21 @@
                   </div>
                 </div>
 
-                <!-- <form 
-                method="post" 
+                 <form 
                 action="submit.php" 
+                method="post" 
+                autocomplete="off"
                 class="contact__form grid">
                   <div class="contact__inputs grid">
                     <div class="contact__content">
                       <label for="name" class="contact__label">Nom</label>
-                      <input type="text" name="name" class="contact__input" required>
+                      <input type="text" name="name"
+                      class="contact__input">
                     </div>
 
                     <div class="contact__content">
                       <label for="email" class="contact__label">Email</label>
-                      <input type="email" name="email" class="contact__input" required>
+                      <input type="email" name="email" class="contact__input">
                     </div>
                   </div>
                   <div class="contact__content">
@@ -527,12 +529,12 @@
                   </div>
 
                   <div>
-                    <button type="submit" class="button button--flex">
-                      Envoyer
-                      <i class="uil uil-message button__icon"></i>
-                    </button>
+                    <input type="submit" value="Envoyer " class="button button--flex">
+                      <!-- Envoyer
+                      <i class="uil uil-message button__icon"></i> -->
+                    
                   </div>
-                </form> -->
+                </form> 
               </div>
     </section>
         </main>
