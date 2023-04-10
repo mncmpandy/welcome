@@ -14,6 +14,6 @@ if($email!=NULL){
     mail($to, $subject, $message, $headers);
 }
 
-header('Location : merci.html')
+header('Location :merci.html')
 
 ?>
