@@ -396,6 +396,10 @@ img {
 
 }
 /*==================== ABOUT ====================*/
+.about__container {
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
 .about__img{
   width: 200px;
   border-radius: .5rem;
@@ -811,7 +815,6 @@ img {
     order: 1;
     justify-self: center;
   }
-  .about__container,
   .project__container,
   .portfolio__content,
   .contact__container,
